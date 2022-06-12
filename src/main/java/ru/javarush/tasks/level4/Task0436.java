@@ -20,8 +20,9 @@ public class Task0436 {
         int n = Integer.parseInt(reader.readLine());
 
         for (int i = 1; i <= m; i++) {
-            for (int k = 1; k <= n; k++)
+            for (int k = 1; k <= n; k++) {
                 System.out.print(8);
+            }
             System.out.println();
         }
     }
