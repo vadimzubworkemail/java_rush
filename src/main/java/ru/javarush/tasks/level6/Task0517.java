@@ -16,10 +16,10 @@ public class Task0517 {
 
     public static void main(String[] args) {
         //напишите тут ваш код
-        int last = array.length;
+
         int average = (array.length / 2) + (array.length % 2);
         result[0] = Arrays.copyOfRange(array, 0, average);
-        result[1] = Arrays.copyOfRange(array, average, last);
+        result[1] = Arrays.copyOfRange(array, average, array.length);
         System.out.println(Arrays.deepToString(result));
     }
 }
