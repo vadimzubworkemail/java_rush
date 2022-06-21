@@ -1,4 +1,4 @@
-package ru.javarush.tasks.level5;
+package ru.javarush.tasks.level6;
 
 import java.util.Arrays;
 import java.util.Scanner;

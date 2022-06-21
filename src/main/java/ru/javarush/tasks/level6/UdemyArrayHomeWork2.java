@@ -1,4 +1,6 @@
-package ru.javarush.tasks.level5;
+package ru.javarush.tasks.level6;
+
+import java.util.Arrays;
 
 /*
 Создайте класс, в котором создайте метод showArray. Инпут параметром данного метода будет двумерный массив
@@ -9,11 +11,17 @@ package ru.javarush.tasks.level5;
  */
 public class UdemyArrayHomeWork2 {
     public static String[][] showArray(String[][] strings) {
-
+        for (int i = 0; i < strings.length; i++) {
+            for (int j = 0; j < strings[i].length; j++) {
+                System.out.print(strings[i][j] + " ");
+            }
+            System.out.println();
+        }
         return strings;
     }
 
     public static void main(String[] args) {
-
+        String [][] str = new String[][]{{"элемент00", "элемент01"}, {"элемент10"}, {"элемент10", "элемент11"}};
+        showArray(str);
     }
 }
