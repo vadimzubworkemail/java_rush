@@ -6,14 +6,25 @@ public class Task0501 {
         Cat cat2 = new Cat("Sam", 2, 2, 2);
         Cat cat3 = new Cat("Fiona", 3, 3, 3);
 
-        System.out.println(cat1.fight(cat2));
-        System.out.println(cat1.fight(cat3));
-        System.out.println(cat2.fight(cat1));
-        System.out.println(cat2.fight(cat1));
-        System.out.println(cat2.fight(cat3));
-        System.out.println(cat3.fight(cat1));
-        System.out.println();
-        cat3.fight(cat2);
+//        System.out.println(cat1.fight(cat2));
+//        System.out.println(cat1.fight(cat3));
+//        System.out.println(cat2.fight(cat3));
+
+        if(cat1.fight(cat2) && cat1.fight(cat3) == true){
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+        if (cat2.fight(cat1) && cat2.fight(cat3) == true){
+            System.out.println(true);
+        } else {
+            System.out.println(false);
+        }
+        if (cat3.fight(cat1) && cat3.fight(cat2) == true){
+            System.out.println(true);
+        }else {
+            System.out.println(false);
+        }
     }
 
     public static class Cat {
