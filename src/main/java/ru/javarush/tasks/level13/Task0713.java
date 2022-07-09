@@ -37,7 +37,7 @@ public class Task0713 {
 
     public static void printList(ArrayList<Integer> list) {
         for (Integer num : list) {
-            System.out.print(num);
+            System.out.println(num);
         }
     }
 }
