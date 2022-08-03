@@ -11,3 +11,6 @@ public class UserDataGeneration {
                 .build();
     }
 }
+
+Путь к тестовому файлу
+src\main\resources\java_test
