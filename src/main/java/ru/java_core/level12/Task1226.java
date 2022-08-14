@@ -1,4 +1,4 @@
-package ru.java_core.level2;
+package ru.java_core.level12;
 
 public class Task1226 {
 
