@@ -13,5 +13,8 @@ public class UserDataGeneration {
 }
 
 Путь к тестовому файлу
-src\main\resources\java_test
+
+src\main\resources\java_test.txt
+src\main\resources\java_test.txt
+src\main\resources\java_test3.txt
 C:\Users\Dick\Documents\studying\java_rush\src\main\resources\java_test
